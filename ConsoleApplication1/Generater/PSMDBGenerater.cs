@@ -65,10 +65,10 @@ namespace ConsoleApplication1.Generater
             DataTable destTable = generatePollingStaMonthTable(dayTable);
             write2Db(destTable, "Polling_Log_Sta_Month");
 
-            if ((endTime.Year==proceeTime.Year&&endTime.Month==proceeTime.Month)&&endTime.Day != CommonUtil.getLastDayOfMonth(startTime))
+            if ((endTime.Year==proceeTime.Year&&endTime.Month==proceeTime.Month))//&&endTime.Day != CommonUtil.getLastDayOfMonth(startTime))
             {
                 // current month and not the last day,return current month day 1
-                endTime = endTime.AddDays((-endTime.Day) + 1);
+                endTime = new DateTime(endTime.Year,endTime.Month,1); // endTime.AddDays((-endTime.Day) + 1);
             }
             else {
                 // not current month ,return the next month and day 1.

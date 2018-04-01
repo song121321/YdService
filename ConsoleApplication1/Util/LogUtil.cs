@@ -11,7 +11,7 @@ namespace YdService.Util
         private static string logPath ="log\\"+ ConfigurationManager.AppSettings["logName"].Trim().ToString()+"-" + DateTime.Now.ToString("yyyy-MM-dd") + ".txt";
         
         public static void starLog(string  content){
-            addEnter(1, "%%%%%%%%%%%%%%" + content + "%%%%%%%%%%%%%%%%%%%%%%%");
+           addEnter(1, "%%%%%%%%%%%%%%" + content + "%%%%%%%%%%%%%%%%%%%%%%%");
            Console.WriteLine("%%%%%%%%%%%%%%"+content+"%%%%%%%%%%%%%%%%%%%%%%%");
         }
         
