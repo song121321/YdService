@@ -70,7 +70,6 @@ namespace ConsoleApplication1
                 return true;
             }
             startDay();
-
             return true;
 
         }
