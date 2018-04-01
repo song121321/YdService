@@ -1,0 +1,9 @@
+E:\元大信息\YdService\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\元大信息\YdService\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\元大信息\YdService\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\元大信息\YdService\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+E:\元大信息\YdService\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+E:\元大信息\YdService\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\元大信息\git\YdService\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\元大信息\git\YdService\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+E:\元大信息\git\YdService\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

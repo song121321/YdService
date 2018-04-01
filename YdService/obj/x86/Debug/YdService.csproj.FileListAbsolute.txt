@@ -1,0 +1,7 @@
+E:\元大信息\YdService\YdService\bin\Debug\YdService.exe
+E:\元大信息\YdService\YdService\bin\Debug\YdService.pdb
+E:\元大信息\YdService\YdService\obj\x86\Debug\YdService.ProjectInstaller.resources
+E:\元大信息\YdService\YdService\obj\x86\Debug\YdService.csproj.GenerateResource.Cache
+E:\元大信息\YdService\YdService\obj\x86\Debug\YdService.exe
+E:\元大信息\YdService\YdService\obj\x86\Debug\YdService.pdb
+E:\元大信息\YdService\YdService\bin\Debug\YdService.exe.config
