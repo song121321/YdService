@@ -104,7 +104,7 @@ namespace YDIOTService
 
         private DataTable generateSourceTable(DateTime startTime)
         {
-            string sql = "select pl.*,fc.Facility_id as fcid from polling_log pl LEFT JOIN Facility_Config fc on pl.msc_id = fc.msc_id  where  check_Time>= '" + startTime.ToShortDateString() + "' and check_Time< '" + endTime.ToShortDateString() + "' and pl.Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ('正累积流量','正累计流量'))) order by check_time asc ";
+            string sql = "select pl.*,fc.Facility_id as fcid from polling_log pl LEFT JOIN Facility_Config fc on pl.msc_id = fc.msc_id  where  check_Time>= '" + startTime.ToShortDateString() + "' and check_Time< '" + endTime.ToString() + "' and pl.Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ('正累积流量','正累计流量'))) order by check_time asc ";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             HashSet<string> set = new HashSet<string>();
             DataTable sourceTable = dataSet.Tables[0].Copy();
@@ -341,7 +341,7 @@ namespace YDIOTService
         private List<string> getStaMscIds()
         {
             List<string> idList = new List<string>();
-            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ('正累计流量','正累积流量'))";
+            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig()+"))";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             if (CommonUtil.firstTableHaveRow(dataSet))
             {
@@ -357,7 +357,7 @@ namespace YDIOTService
         private List<string> getStaUsageIds()
         {
             List<string> idList = new List<string>();
-            DataSet dataSet = sqlHelper.ExecuteDataSet("select  Usage_id from  [Usage] where Usage_Name  in ('正累计流量','正累积流量');");
+            DataSet dataSet = sqlHelper.ExecuteDataSet("select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig()+");");
             if (CommonUtil.firstTableHaveRow(dataSet))
             {
                 for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
