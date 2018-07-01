@@ -171,7 +171,7 @@ namespace ConsoleApplication1.Generater
         private List<string> getStaMscIds()
         {
             List<string> idList = new List<string>();
-            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ('正累计流量','正累积流量'))";
+            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig()+"))";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             if (CommonUtil.firstTableHaveRow(dataSet))
             {
