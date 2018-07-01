@@ -341,7 +341,7 @@ namespace YDIOTService
         private List<string> getStaMscIds()
         {
             List<string> idList = new List<string>();
-            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ('正累计流量','正累积流量'))";
+            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig()+"))";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             if (CommonUtil.firstTableHaveRow(dataSet))
             {
@@ -357,7 +357,7 @@ namespace YDIOTService
         private List<string> getStaUsageIds()
         {
             List<string> idList = new List<string>();
-            DataSet dataSet = sqlHelper.ExecuteDataSet("select  Usage_id from  [Usage] where Usage_Name  in ('正累计流量','正累积流量');");
+            DataSet dataSet = sqlHelper.ExecuteDataSet("select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig()+");");
             if (CommonUtil.firstTableHaveRow(dataSet))
             {
                 for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)

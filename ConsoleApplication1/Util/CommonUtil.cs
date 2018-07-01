@@ -172,8 +172,6 @@ namespace YdService.Util
 
         public static int getLastDayOfMonth(DateTime dateTime)
         {
-            //return  dateTime.AddMonths(1).AddDays(-1).Day;
-
             return DateTime.Parse(dateTime.ToString("yyyy-MM-01")).AddMonths(1).AddDays(-1).Day;
         }
 
@@ -207,7 +205,7 @@ namespace YdService.Util
          /// </summary>
          /// <param name="key">key值</param>
          /// <param name="value">相应值</param>
-         public static bool SetConfigValue(string key, string value)
+        public static bool SetConfigValue(string key, string value)
          {
              try
              {
@@ -226,7 +224,8 @@ namespace YdService.Util
              }
          }
 
-
-
+        public static String getUsageMatchStrFromConfig() {
+            return "'" + ConfigurationManager.AppSettings["usageMatchStr"].Trim().ToString().Replace(",", "','") + "'";
+        }
     }
 }

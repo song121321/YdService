@@ -34,7 +34,7 @@ namespace ConsoleApplication1
             // PSYDBGenerater pp = new PSYDBGenerater("ydupdate", startTime, endtime);
             //  pp.run();
 
-
+           // Console.WriteLine(CommonUtil. getUsageMatchStrFromConfig());
 
             int y = 0;
 
