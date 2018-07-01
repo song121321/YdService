@@ -98,13 +98,13 @@ namespace YDIOTService
             ELSE pl_time END) 
             WHERE
             check_time is null and
-            Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ('正累积流量','正累计流量')))";
+            Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig()+")))";
             sqlHelper.ExecteNonQueryText(sql);
         }
 
         private DataTable generateSourceTable(DateTime startTime)
         {
-            string sql = "select pl.*,fc.Facility_id as fcid from polling_log pl LEFT JOIN Facility_Config fc on pl.msc_id = fc.msc_id  where  check_Time>= '" + startTime.ToShortDateString() + "' and check_Time< '" + endTime.ToString() + "' and pl.Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ('正累积流量','正累计流量'))) order by check_time asc ";
+            string sql = "select pl.*,fc.Facility_id as fcid from polling_log pl LEFT JOIN Facility_Config fc on pl.msc_id = fc.msc_id  where  check_Time>= '" + startTime.ToShortDateString() + "' and check_Time< '" + endTime.ToString() + "' and pl.Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig()+"))) order by check_time asc ";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             HashSet<string> set = new HashSet<string>();
             DataTable sourceTable = dataSet.Tables[0].Copy();
@@ -320,8 +320,8 @@ namespace YDIOTService
         private Dictionary<String, float> getAllMsgIdAndMaxValueUntillStartTime(DateTime startTime)
         {
             Dictionary<String, float> result = new Dictionary<string, float>();
-            string sql = "select Msc_ID,Value from (SELECT * , Row_Number() OVER (partition by Msc_ID ORDER BY check_Time desc) rank FROM Polling_Log where  check_Time < cast('" + startTime.ToString() + "' as DateTime)  and Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ('正累积流量','正累计流量'))))T  where T.rank = 1";
-            //string sql = "select Msc_ID, max(VALUE) as maxValue from Polling_Log where  check_Time < cast('" + startTime.ToString() + "' as DateTime)  and Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ('正累积流量','正累计流量')))  GROUP BY Msc_ID ";
+            string sql = "select Msc_ID,Value from (SELECT * , Row_Number() OVER (partition by Msc_ID ORDER BY check_Time desc) rank FROM Polling_Log where  check_Time < cast('" + startTime.ToString() + "' as DateTime)  and Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig()+"))))T  where T.rank = 1";
+            //string sql = "select Msc_ID, max(VALUE) as maxValue from Polling_Log where  check_Time < cast('" + startTime.ToString() + "' as DateTime)  and Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig()+")))  GROUP BY Msc_ID ";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             if (CommonUtil.firstTableHaveRow(dataSet))
             {
