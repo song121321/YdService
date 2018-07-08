@@ -19,7 +19,7 @@ namespace YdService.Util
         public List<string> getAvailableDataBaseList()
         {
             List<string> result = new List<string>();
-            string sql = "select name from master..sysdatabases where name not in ('ydxx','master','tempdb','model','msdb') ";
+            string sql = "select name from master..sysdatabases where name not in ('ydxx','ydupdate','master','tempdb','model','msdb') ";
             DataSet ds = sqlHelper.ExecuteDataSet(sql);
             if (CommonUtil.firstTableHaveRow(ds))
             {

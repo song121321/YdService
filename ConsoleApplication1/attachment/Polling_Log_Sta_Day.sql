@@ -1,6 +1,27 @@
-﻿--tn means the last data before tn
+/*
+Navicat SQL Server Data Transfer
+
+Source Server         : msslocal
+Source Server Version : 105000
+Source Host           : .:1433
+Source Database       : ydupdate
+Source Schema         : dbo
+
+Target Server Type    : SQL Server
+Target Server Version : 105000
+File Encoding         : 65001
+
+Date: 2018-07-08 15:07:24
+*/
+
+
+-- ----------------------------
+-- Table structure for Polling_Log_Sta_Day
+-- ----------------------------
+DROP TABLE [dbo].[Polling_Log_Sta_Day]
+GO
 CREATE TABLE [dbo].[Polling_Log_Sta_Day] (
-[id] int NOT NULL PRIMARY KEY IDENTITY(1,1) ,
+[id] int NOT NULL IDENTITY(1,1) ,
 [year] int NULL ,
 [month] int NULL ,
 [day] int NULL ,
@@ -53,5 +74,22 @@ CREATE TABLE [dbo].[Polling_Log_Sta_Day] (
 [H22] decimal(20,2) NULL ,
 [Hn22] decimal(20,2) NULL ,
 [H23] decimal(20,2) NULL ,
-[Hn23] decimal(20,2) NULL 
+[Hn23] decimal(20,2) NULL ,
+[fcid] int NULL ,
+[haveData] tinyint NULL 
 )
+
+
+GO
+DBCC CHECKIDENT(N'[dbo].[Polling_Log_Sta_Day]', RESEED, 25780)
+GO
+
+-- ----------------------------
+-- Indexes structure for table Polling_Log_Sta_Day
+-- ----------------------------
+
+-- ----------------------------
+-- Primary Key structure for table Polling_Log_Sta_Day
+-- ----------------------------
+ALTER TABLE [dbo].[Polling_Log_Sta_Day] ADD PRIMARY KEY ([id])
+GO

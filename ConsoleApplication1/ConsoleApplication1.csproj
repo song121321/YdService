@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Db\SQLHelper.cs" />
     <Compile Include="Generater\PSMDBGenerater.cs" />
+    <Compile Include="Generater\PSUpdateFcidGenerater.cs" />
     <Compile Include="Generater\PSYDBGenerater.cs" />
     <Compile Include="Model\PollingStaDay.cs" />
     <Compile Include="Model\PollingStaMonth.cs" />
@@ -64,8 +65,14 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="attachment\关于服务安装.docx" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="attachment\Polling_Log_Sta_Day.sql" />
+    <Content Include="attachment\Polling_Log_Sta_Month.sql" />
+    <Content Include="attachment\Polling_Log_Sta_Year.sql" />
+    <Content Include="version.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
