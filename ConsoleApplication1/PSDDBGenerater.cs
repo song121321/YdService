@@ -195,7 +195,7 @@ namespace YDIOTService
                     string mscid = mscList[i];
                     string select = " mscid = " + mscid;
                     DataRow[] drs = insertDT.Select(select);
-                    float toValue = -1f;
+                    float toValue = 0;
                     if (maxValueDic.ContainsKey(mscid))
                     {
                         toValue = maxValueDic[mscid];

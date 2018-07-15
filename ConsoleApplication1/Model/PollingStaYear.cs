@@ -12,8 +12,8 @@ namespace YdService.Model
         public int year { set; get; }
         public int mscid { set; get; }
         public DateTime occurtime { set; get; }
-        public List<float> totalColumn { set;get; }
-        public List<float> netColumn { set; get; }
+        public List<decimal> totalColumn { set;get; }
+        public List<decimal> netColumn { set; get; }
         public int fcid { set; get; }
         public byte haveData { set; get; }
 
@@ -25,12 +25,12 @@ namespace YdService.Model
         }
 
         protected void init() {
-            totalColumn = new List<float>();
-            netColumn = new List<float>();
+            totalColumn = new List<decimal>();
+            netColumn = new List<decimal>();
             for (int i = 0; i < tWidth; i++)
             {
-                totalColumn.Add(-1f);
-                netColumn.Add(-1f);
+                totalColumn.Add(0);
+                netColumn.Add(0);
             }
         }
     }

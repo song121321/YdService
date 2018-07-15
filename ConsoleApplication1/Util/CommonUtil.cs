@@ -111,8 +111,8 @@ namespace YdService.Util
             for (int i = startindex; i < width; i++)
             {
 
-                dt.Columns.Add(columnLabel + "" + i, typeof(float));
-                dt.Columns.Add(columnLabel + "n" + i, typeof(float));
+                dt.Columns.Add(columnLabel + "" + i, typeof(decimal));
+                dt.Columns.Add(columnLabel + "n" + i, typeof(decimal));
             }
             return dt;
         }
