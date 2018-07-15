@@ -55,9 +55,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PSDDBGenerater.cs" />
-    <Compile Include="StaElec\PSDDBGeneraterE.cs" />
-    <Compile Include="StaElec\PSMDBGeneraterE.cs" />
-    <Compile Include="StaElec\PSYDBGeneraterE.cs" />
     <Compile Include="Util\CommonUtil.cs" />
     <Compile Include="Util\ConvertUtil.cs" />
     <Compile Include="Util\LogUtil.cs" />
@@ -76,7 +73,6 @@
     <Content Include="attachment\Polling_Log_Sta_Year.sql" />
     <Content Include="version.txt" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -11,6 +11,30 @@ namespace YdService.Util
 {
     class CommonUtil
     {
+        private static Dictionary<string, string> dicMscAndFcid = new Dictionary<string, string>();
+
+        public static Dictionary<string, string> generateMscAndFcidMap(SqlHelper sqlHelper)
+        {
+            if (dicMscAndFcid.Count > 0) {
+                return dicMscAndFcid;
+            }
+            string sql = "SELECT DISTINCT Msc_ID,Facility_ID from Facility_Config; ";
+            DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
+            if (CommonUtil.firstTableHaveRow(dataSet))
+            {
+                for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+                {
+                    string mscid = dataSet.Tables[0].Rows[i][0].ToString().Trim();
+                    string fcid = dataSet.Tables[0].Rows[i][1].ToString().Trim();
+                    if (!dicMscAndFcid.ContainsKey(mscid))
+                    {
+                        dicMscAndFcid.Add(mscid, fcid);
+                    }
+                }
+            }
+            return dicMscAndFcid;
+        }
+
         public static bool firstTableHaveRow(DataSet ds)
         {
 
@@ -39,24 +63,24 @@ namespace YdService.Util
             return dateList;
         }
 
-        public static DataTable createEmptyPollingStaDayTable(String dbName)
+        public static DataTable createEmptyPollingStaDayTable()
         {
-            DataTable table = createEmptyPollingStaTable(true, dbName, 24);
+            DataTable table = createEmptyPollingStaTable(true, "Polling_Log_Sta_Day", 24);
             table.Columns.Add("month", typeof(int));
             table.Columns.Add("day", typeof(int));
             return table;
         }
 
-        public static DataTable createEmptyPollingStaMonthTable(String dbName)
+        public static DataTable createEmptyPollingStaMonthTable()
         {
-            DataTable table = createEmptyPollingStaTable(false, dbName, 32);
+            DataTable table = createEmptyPollingStaTable(false, "Polling_Log_Sta_Month", 32);
             table.Columns.Add("month", typeof(int));
             return table;
         }
 
-        public static DataTable createEmptyPollingStaYearTable(String dbName)
+        public static DataTable createEmptyPollingStaYearTable()
         {
-            return createEmptyPollingStaTable(false, dbName, 13);
+            return createEmptyPollingStaTable(false, "Polling_Log_Sta_Year", 13);
         }
 
         public static DataTable createEmptyPollingStaTable(bool from0, string tableName, int width)
@@ -87,8 +111,8 @@ namespace YdService.Util
             for (int i = startindex; i < width; i++)
             {
 
-                dt.Columns.Add(columnLabel + "" + i, typeof(decimal));
-                dt.Columns.Add(columnLabel + "n" + i, typeof(decimal));
+                dt.Columns.Add(columnLabel + "" + i, typeof(float));
+                dt.Columns.Add(columnLabel + "n" + i, typeof(float));
             }
             return dt;
         }
@@ -110,13 +134,13 @@ namespace YdService.Util
                 newRow["month"] = ((PollingStaDay)psy).month;
                 newRow["day"] = ((PollingStaDay)psy).day;
                 newRow["occurtime"] = psy.year + "-" + ((PollingStaDay)psy).month + "-" + ((PollingStaDay)psy).day;
-                for (int i = 0; i <= 23; i++)
+                for (int i =  0; i <= 23; i++)
                 {
                     newRow[colLabel + "" + i] = psy.totalColumn[i];
                     newRow[colLabel + "n" + i] = psy.netColumn[i];
                 }
-
-
+            
+            
             }
             else if (psy is PollingStaMonth)
             {
@@ -127,22 +151,22 @@ namespace YdService.Util
 
                 for (int i = 1; i <= 31; i++)
                 {
-                    newRow[colLabel + "" + i] = psy.totalColumn[i - 1];
-                    newRow[colLabel + "n" + i] = psy.netColumn[i - 1];
+                    newRow[colLabel + "" + i] = psy.totalColumn[i-1];
+                    newRow[colLabel + "n" + i] = psy.netColumn[i-1];
                 }
-
+            
             }
             else
             {
                 newRow["occurtime"] = psy.year + "-01-01";
                 for (int i = 1; i <= 12; i++)
                 {
-                    newRow[colLabel + "" + i] = psy.totalColumn[i - 1];
-                    newRow[colLabel + "n" + i] = psy.netColumn[i - 1];
+                    newRow[colLabel + "" + i] = psy.totalColumn[i-1];
+                    newRow[colLabel + "n" + i] = psy.netColumn[i-1];
                 }
             }
 
-
+          
             dt.Rows.Add(newRow);
         }
 
@@ -156,8 +180,7 @@ namespace YdService.Util
             int interval = 0;
 
             char colLabel = 'M';
-            if (width == 24)
-            {
+            if (width == 24) {
                 colLabel = 'H';
             }
             else if (width == 31)
@@ -165,7 +188,7 @@ namespace YdService.Util
                 colLabel = 'D';
             }
 
-            string select = colLabel + "" + 1 + " <= " + interval;
+            string select = colLabel+""+1+" <= "+interval;
             for (int i = 2; i < width; i++)
             {
                 select += " and " + colLabel + i + " <= " + interval;
@@ -178,39 +201,31 @@ namespace YdService.Util
         }
 
         /// <summary>
-        /// 修改AppSettings中配置
-        /// </summary>
-        /// <param name="key">key值</param>
-        /// <param name="value">相应值</param>
+         /// 修改AppSettings中配置
+         /// </summary>
+         /// <param name="key">key值</param>
+         /// <param name="value">相应值</param>
         public static bool SetConfigValue(string key, string value)
-        {
-            try
-            {
-                Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-                if (config.AppSettings.Settings[key] != null)
-                    config.AppSettings.Settings[key].Value = value;
-                else
-                    config.AppSettings.Settings.Add(key, value);
-                config.Save(ConfigurationSaveMode.Modified);
-                ConfigurationManager.RefreshSection("appSettings");
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-        }
+         {
+             try
+             {
+                 Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+                 if (config.AppSettings.Settings[key] != null)
+                     config.AppSettings.Settings[key].Value = value;
+                 else
+                     config.AppSettings.Settings.Add(key, value);
+                 config.Save(ConfigurationSaveMode.Modified);
+                 ConfigurationManager.RefreshSection("appSettings");
+                 return true;
+             }
+             catch
+             {
+                 return false;
+             }
+         }
 
-        public static String getUsageMatchStrFromConfig(String table)
-        {
-            if (table.ToLower().Contains("electricity"))
-            {
-                return "'" + ConfigurationManager.AppSettings["usageMatchForElectricityStr"].Trim().ToString().Replace(",", "','") + "'";
-            }
-            else
-            {
-                return "'" + ConfigurationManager.AppSettings["usageMatchForWaterStr"].Trim().ToString().Replace(",", "','") + "'";
-            }
+        public static String getUsageMatchStrFromConfig() {
+            return "'" + ConfigurationManager.AppSettings["usageMatchStr"].Trim().ToString().Replace(",", "','") + "'";
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 using YdService.Db;
 using YdService.Util;
 
-namespace YDIOTService.Generater
+namespace ConsoleApplication1.Generater
 {
     public class PSUpdateFcidGenerater
     {
@@ -16,12 +16,9 @@ namespace YDIOTService.Generater
         {
             sqlHelper = new SqlHelper(dbName);
             tables = new HashSet<string>();
-            tables.Add("day");
-            tables.Add("month");
-            tables.Add("year");
-            tables.Add("day_electricity");
-            tables.Add("month_electricity");
-            tables.Add("year_electricity");
+            tables.Add("Day");
+            tables.Add("Month");
+            tables.Add("Year");
             this.table = tableName;
         }
 
@@ -37,7 +34,7 @@ namespace YDIOTService.Generater
 	            [Usage] us
             WHERE
 	            pd.mscid = fc.Msc_ID
-            AND us.Usage_Name IN (" + CommonUtil.getUsageMatchStrFromConfig(table) + ");";
+            AND us.Usage_Name IN (" + CommonUtil.getUsageMatchStrFromConfig() + ");";
                 sqlHelper.ExecteNonQueryText(updateSql);
             }
 

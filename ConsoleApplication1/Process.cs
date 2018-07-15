@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using YdService.Util;
 using YDIOTService;
+using ConsoleApplication1.Generater;
 using System.Configuration;
-using YDIOTService.StaElec;
-using YDIOTService.Generater;
 
 namespace ConsoleApplication1
 {
@@ -25,7 +24,6 @@ namespace ConsoleApplication1
         {
             dbList = new SQLUtil().getAvailableDataBaseList();
         }
-
 
         public bool start()
         {
@@ -88,8 +86,6 @@ namespace ConsoleApplication1
                     {
                         startTimeCopy = new PSDDBGenerater(dbList[i], startTime, processTime).run();
                         new PSUpdateFcidGenerater(dbList[i], "Day").run();
-                        startTimeCopy = new PSDDBGeneraterE(dbList[i], startTime, processTime).run();
-                        new PSUpdateFcidGenerater(dbList[i], "day_electricity").run();
                         LogUtil.logFinishDataBase(dbList[i]);
                     }
                     startTime = startTimeCopy;
@@ -117,8 +113,6 @@ namespace ConsoleApplication1
                     {
                         startTimeCopy = new PSMDBGenerater(dbList[i], startTimeMonth, processTime).run();
                         new PSUpdateFcidGenerater(dbList[i], "Month").run();
-                        startTimeCopy = new PSMDBGeneraterE(dbList[i], startTimeMonth, processTime).run();
-                        new PSUpdateFcidGenerater(dbList[i], "Month_electricity").run();
                         LogUtil.logFinishDataBase(dbList[i]);
                     }
                     startTimeMonth = startTimeCopy;
@@ -141,8 +135,6 @@ namespace ConsoleApplication1
                 {
                     startTimeCopy = new PSYDBGenerater(dbList[i], startTimeYear, processTime).run();
                     new PSUpdateFcidGenerater(dbList[i],"Year").run();
-                    startTimeCopy = new PSYDBGeneraterE(dbList[i], startTimeYear, processTime).run();
-                    new PSUpdateFcidGenerater(dbList[i], "Year_electricity").run();
                     LogUtil.logFinishDataBase(dbList[i]);
                 }
                 startTimeYear = startTimeCopy;

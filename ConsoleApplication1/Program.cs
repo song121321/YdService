@@ -5,6 +5,7 @@ using System.Text;
 using YDIOTService;
 using YdService.Util;
 using System.Configuration;
+using ConsoleApplication1.Generater;
 
 namespace ConsoleApplication1
 {
@@ -19,10 +20,10 @@ namespace ConsoleApplication1
         {
 
             // startTime = new PSDDBGenerater(startTime).run();
-           //   Process p = new Process();
-           //  Boolean b = p.startDayE();
-            //  Boolean b = p.startYearE();
-            //  Boolean b = p.startMonthE();
+            //  Process p = new Process(startTime);
+            // Boolean b = p.start();
+            //  Boolean b = p.startYear();
+            //  Boolean b = p.startMonth();
             // List<string> list =new SQLUtil().getAvailableDataBaseList();
             //DateTime start = new DateTime(2017, 8, 1);
             //  DateTime end = DateTime.Now;
@@ -35,15 +36,11 @@ namespace ConsoleApplication1
 
            // Console.WriteLine(CommonUtil. getUsageMatchStrFromConfig());
 
-             int y = 0;
-           
-
-           
+            int y = 0;
 
             new Program().init();
 
             Console.Read();
-            
 
         }
 
