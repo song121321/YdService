@@ -23,7 +23,7 @@ namespace YDIOTService
        
         private readonly static string TIMEFORMAT = "yyyy-MM-dd HH:mm:ss";
 
-        private static Dictionary<string, string> dicMscAndFcid = new Dictionary<string, string>();
+       // private static Dictionary<string, string> dicMscAndFcid = new Dictionary<string, string>();
 
 
         public PSDDBGenerater()
@@ -130,7 +130,7 @@ namespace YDIOTService
 
         public DataTable generatePollingStaDayTable(DataTable sourceDT)
         {
-            dicMscAndFcid = CommonUtil.generateMscAndFcidMap(sqlHelper);
+            //dicMscAndFcid = CommonUtil.generateMscAndFcidMap(sqlHelper);
             DataTable insertDT = CommonUtil.createEmptyPollingStaDayTable();
             //  LogUtil.log("finished creating a empty pollingstadaydatatable ");
             Dictionary<string, float> maxValueDic = getAllMsgIdAndMaxValueUntillStartTime(startTime);
@@ -250,10 +250,10 @@ namespace YDIOTService
 
                 DateTime now = DateTime.Now;
                 int fcid = 0;
-                if (dicMscAndFcid.ContainsKey(mscid + ""))
-                {
-                    fcid = Convert.ToInt32(dicMscAndFcid["" + mscid]);
-                }
+                //if (dicMscAndFcid.ContainsKey(mscid + ""))
+                //{
+                //    fcid = Convert.ToInt32(dicMscAndFcid["" + mscid]);
+                //}
                 insertDT.Rows[i]["fcid"] = fcid;
                 if (now.Year == year && now.Month == month && now.Day == day)
                 {

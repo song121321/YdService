@@ -58,7 +58,7 @@ namespace ConsoleApplication1
             {
                 startMonth();
                 startYear();
-                startDay(); 
+                startDay();
                 return true;
             }
 
@@ -85,6 +85,7 @@ namespace ConsoleApplication1
                     for (int i = 0; i < dbList.Count; i++)
                     {
                         startTimeCopy = new PSDDBGenerater(dbList[i], startTime, processTime).run();
+                        new PSUpdateFcidGenerater(dbList[i], "Day").run();
                         LogUtil.logFinishDataBase(dbList[i]);
                     }
                     startTime = startTimeCopy;
@@ -111,6 +112,7 @@ namespace ConsoleApplication1
                     for (int i = 0; i < dbList.Count; i++)
                     {
                         startTimeCopy = new PSMDBGenerater(dbList[i], startTimeMonth, processTime).run();
+                        new PSUpdateFcidGenerater(dbList[i], "Month").run();
                         LogUtil.logFinishDataBase(dbList[i]);
                     }
                     startTimeMonth = startTimeCopy;
@@ -126,19 +128,19 @@ namespace ConsoleApplication1
         public bool startYear()
         {
             DateTime processTime = DateTime.Now;
-            if (startTimeYear < processTime)  
+            if (startTimeYear < processTime)
             {
                 DateTime startTimeCopy = startTimeYear;
                 for (int i = 0; i < dbList.Count; i++)
                 {
                     startTimeCopy = new PSYDBGenerater(dbList[i], startTimeYear, processTime).run();
+                    new PSUpdateFcidGenerater(dbList[i],"Year").run();
                     LogUtil.logFinishDataBase(dbList[i]);
                 }
                 startTimeYear = startTimeCopy;
             }
             return true;
         }
-
 
     }
 }
