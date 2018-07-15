@@ -1,0 +1,2539 @@
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-22 00:00:00] to [2018-01-23 00:00:00] , count:  225--logDate: [2018/7/15 11:31:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-22 00:00:00] to [2018-01-23 00:00:00] , count:  0--logDate: [2018/7/15 11:31:17]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:31:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [1] #####[2018/7/15 11:31:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-23 00:00:00] to [2018-01-24 00:00:00] , count:  161--logDate: [2018/7/15 11:31:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-23 00:00:00] to [2018-01-24 00:00:00] , count:  0--logDate: [2018/7/15 11:31:27]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:31:27]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [2] #####[2018/7/15 11:31:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-24 00:00:00] to [2018-01-25 00:00:00] , count:  11--logDate: [2018/7/15 11:31:36]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-24 00:00:00] to [2018-01-25 00:00:00] , count:  0--logDate: [2018/7/15 11:31:37]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:31:37]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [3] #####[2018/7/15 11:31:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-25 00:00:00] to [2018-01-26 00:00:00] , count:  0--logDate: [2018/7/15 11:31:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-25 00:00:00] to [2018-01-26 00:00:00] , count:  0--logDate: [2018/7/15 11:31:47]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:31:47]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [4] #####[2018/7/15 11:31:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-26 00:00:00] to [2018-01-27 00:00:00] , count:  0--logDate: [2018/7/15 11:31:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-26 00:00:00] to [2018-01-27 00:00:00] , count:  0--logDate: [2018/7/15 11:31:57]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:31:57]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [5] #####[2018/7/15 11:31:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-27 00:00:00] to [2018-01-28 00:00:00] , count:  0--logDate: [2018/7/15 11:32:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-27 00:00:00] to [2018-01-28 00:00:00] , count:  0--logDate: [2018/7/15 11:32:07]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:32:07]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [6] #####[2018/7/15 11:32:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-28 00:00:00] to [2018-01-29 00:00:00] , count:  0--logDate: [2018/7/15 11:32:16]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-28 00:00:00] to [2018-01-29 00:00:00] , count:  0--logDate: [2018/7/15 11:32:17]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:32:17]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [7] #####[2018/7/15 11:32:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-29 00:00:00] to [2018-01-30 00:00:00] , count:  0--logDate: [2018/7/15 11:32:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-29 00:00:00] to [2018-01-30 00:00:00] , count:  0--logDate: [2018/7/15 11:32:27]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:32:27]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [8] #####[2018/7/15 11:32:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-30 00:00:00] to [2018-01-31 00:00:00] , count:  0--logDate: [2018/7/15 11:32:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-30 00:00:00] to [2018-01-31 00:00:00] , count:  0--logDate: [2018/7/15 11:32:37]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:32:37]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [9] #####[2018/7/15 11:32:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-31 00:00:00] to [2018-02-01 00:00:00] , count:  0--logDate: [2018/7/15 11:32:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-01-31 00:00:00] to [2018-02-01 00:00:00] , count:  0--logDate: [2018/7/15 11:32:47]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:32:47]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [10] #####[2018/7/15 11:32:47]
+ 
+%%%%%%%%%%%%%%2018/1/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/1/1 0:00:00] to [2018-01-31 23:59:59] , count:  170--logDate: [2018/7/15 11:32:56]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-1
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/1/1 0:00:00] to [2018-01-31 23:59:59] , count:  0--logDate: [2018/7/15 11:32:56]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-1
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:32:56]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-01 00:00:00] to [2018-02-02 00:00:00] , count:  0--logDate: [2018/7/15 11:32:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-01 00:00:00] to [2018-02-02 00:00:00] , count:  0--logDate: [2018/7/15 11:32:57]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:32:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [11] #####[2018/7/15 11:32:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-02 00:00:00] to [2018-02-03 00:00:00] , count:  0--logDate: [2018/7/15 11:33:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-02 00:00:00] to [2018-02-03 00:00:00] , count:  0--logDate: [2018/7/15 11:33:07]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:33:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [12] #####[2018/7/15 11:33:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-03 00:00:00] to [2018-02-04 00:00:00] , count:  0--logDate: [2018/7/15 11:33:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-03 00:00:00] to [2018-02-04 00:00:00] , count:  0--logDate: [2018/7/15 11:33:17]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:33:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [13] #####[2018/7/15 11:33:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-04 00:00:00] to [2018-02-05 00:00:00] , count:  80--logDate: [2018/7/15 11:33:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-04 00:00:00] to [2018-02-05 00:00:00] , count:  0--logDate: [2018/7/15 11:33:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:33:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [14] #####[2018/7/15 11:33:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-05 00:00:00] to [2018-02-06 00:00:00] , count:  251--logDate: [2018/7/15 11:33:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-05 00:00:00] to [2018-02-06 00:00:00] , count:  0--logDate: [2018/7/15 11:33:37]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:33:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [15] #####[2018/7/15 11:33:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-06 00:00:00] to [2018-02-07 00:00:00] , count:  275--logDate: [2018/7/15 11:33:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-06 00:00:00] to [2018-02-07 00:00:00] , count:  0--logDate: [2018/7/15 11:33:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:33:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [16] #####[2018/7/15 11:33:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-07 00:00:00] to [2018-02-08 00:00:00] , count:  276--logDate: [2018/7/15 11:33:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-07 00:00:00] to [2018-02-08 00:00:00] , count:  0--logDate: [2018/7/15 11:33:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:33:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [17] #####[2018/7/15 11:33:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-08 00:00:00] to [2018-02-09 00:00:00] , count:  286--logDate: [2018/7/15 11:34:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-08 00:00:00] to [2018-02-09 00:00:00] , count:  0--logDate: [2018/7/15 11:34:07]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:34:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [18] #####[2018/7/15 11:34:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-09 00:00:00] to [2018-02-10 00:00:00] , count:  278--logDate: [2018/7/15 11:34:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-09 00:00:00] to [2018-02-10 00:00:00] , count:  0--logDate: [2018/7/15 11:34:17]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:34:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [19] #####[2018/7/15 11:34:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-10 00:00:00] to [2018-02-11 00:00:00] , count:  281--logDate: [2018/7/15 11:34:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-10 00:00:00] to [2018-02-11 00:00:00] , count:  0--logDate: [2018/7/15 11:34:27]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:34:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [20] #####[2018/7/15 11:34:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-11 00:00:00] to [2018-02-12 00:00:00] , count:  290--logDate: [2018/7/15 11:34:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-11 00:00:00] to [2018-02-12 00:00:00] , count:  0--logDate: [2018/7/15 11:34:37]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:34:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [21] #####[2018/7/15 11:34:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-12 00:00:00] to [2018-02-13 00:00:00] , count:  268--logDate: [2018/7/15 11:34:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-12 00:00:00] to [2018-02-13 00:00:00] , count:  0--logDate: [2018/7/15 11:34:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:34:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [22] #####[2018/7/15 11:34:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-13 00:00:00] to [2018-02-14 00:00:00] , count:  307--logDate: [2018/7/15 11:34:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-13 00:00:00] to [2018-02-14 00:00:00] , count:  0--logDate: [2018/7/15 11:34:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:34:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [23] #####[2018/7/15 11:34:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-14 00:00:00] to [2018-02-15 00:00:00] , count:  291--logDate: [2018/7/15 11:35:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-14 00:00:00] to [2018-02-15 00:00:00] , count:  0--logDate: [2018/7/15 11:35:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:35:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [24] #####[2018/7/15 11:35:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-15 00:00:00] to [2018-02-16 00:00:00] , count:  253--logDate: [2018/7/15 11:35:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-15 00:00:00] to [2018-02-16 00:00:00] , count:  0--logDate: [2018/7/15 11:35:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:35:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [25] #####[2018/7/15 11:35:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-16 00:00:00] to [2018-02-17 00:00:00] , count:  266--logDate: [2018/7/15 11:35:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-16 00:00:00] to [2018-02-17 00:00:00] , count:  0--logDate: [2018/7/15 11:35:27]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:35:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [26] #####[2018/7/15 11:35:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-17 00:00:00] to [2018-02-18 00:00:00] , count:  266--logDate: [2018/7/15 11:35:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-17 00:00:00] to [2018-02-18 00:00:00] , count:  0--logDate: [2018/7/15 11:35:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:35:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [27] #####[2018/7/15 11:35:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-18 00:00:00] to [2018-02-19 00:00:00] , count:  266--logDate: [2018/7/15 11:35:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-18 00:00:00] to [2018-02-19 00:00:00] , count:  0--logDate: [2018/7/15 11:35:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:35:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [28] #####[2018/7/15 11:35:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-19 00:00:00] to [2018-02-20 00:00:00] , count:  261--logDate: [2018/7/15 11:35:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-19 00:00:00] to [2018-02-20 00:00:00] , count:  0--logDate: [2018/7/15 11:35:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:35:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [29] #####[2018/7/15 11:35:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-20 00:00:00] to [2018-02-21 00:00:00] , count:  266--logDate: [2018/7/15 11:36:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-20 00:00:00] to [2018-02-21 00:00:00] , count:  0--logDate: [2018/7/15 11:36:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:36:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [30] #####[2018/7/15 11:36:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-21 00:00:00] to [2018-02-22 00:00:00] , count:  268--logDate: [2018/7/15 11:36:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-21 00:00:00] to [2018-02-22 00:00:00] , count:  0--logDate: [2018/7/15 11:36:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:36:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [31] #####[2018/7/15 11:36:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-22 00:00:00] to [2018-02-23 00:00:00] , count:  261--logDate: [2018/7/15 11:36:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-22 00:00:00] to [2018-02-23 00:00:00] , count:  0--logDate: [2018/7/15 11:36:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:36:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [32] #####[2018/7/15 11:36:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-23 00:00:00] to [2018-02-24 00:00:00] , count:  266--logDate: [2018/7/15 11:36:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-23 00:00:00] to [2018-02-24 00:00:00] , count:  0--logDate: [2018/7/15 11:36:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:36:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [33] #####[2018/7/15 11:36:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-24 00:00:00] to [2018-02-25 00:00:00] , count:  266--logDate: [2018/7/15 11:36:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-24 00:00:00] to [2018-02-25 00:00:00] , count:  0--logDate: [2018/7/15 11:36:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:36:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [34] #####[2018/7/15 11:36:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-25 00:00:00] to [2018-02-26 00:00:00] , count:  266--logDate: [2018/7/15 11:36:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-25 00:00:00] to [2018-02-26 00:00:00] , count:  0--logDate: [2018/7/15 11:36:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:36:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [35] #####[2018/7/15 11:36:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-26 00:00:00] to [2018-02-27 00:00:00] , count:  261--logDate: [2018/7/15 11:37:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-26 00:00:00] to [2018-02-27 00:00:00] , count:  0--logDate: [2018/7/15 11:37:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:37:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [36] #####[2018/7/15 11:37:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-27 00:00:00] to [2018-02-28 00:00:00] , count:  267--logDate: [2018/7/15 11:37:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-27 00:00:00] to [2018-02-28 00:00:00] , count:  0--logDate: [2018/7/15 11:37:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:37:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [37] #####[2018/7/15 11:37:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-28 00:00:00] to [2018-03-01 00:00:00] , count:  268--logDate: [2018/7/15 11:37:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-02-28 00:00:00] to [2018-03-01 00:00:00] , count:  0--logDate: [2018/7/15 11:37:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:37:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [38] #####[2018/7/15 11:37:28]
+ 
+%%%%%%%%%%%%%%2018/2/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/2/1 0:00:00] to [2018-02-28 23:59:59] , count:  601--logDate: [2018/7/15 11:37:36]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-2
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/2/1 0:00:00] to [2018-02-28 23:59:59] , count:  0--logDate: [2018/7/15 11:37:37]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-2
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:37:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-01 00:00:00] to [2018-03-02 00:00:00] , count:  266--logDate: [2018/7/15 11:37:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-01 00:00:00] to [2018-03-02 00:00:00] , count:  0--logDate: [2018/7/15 11:37:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:37:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [39] #####[2018/7/15 11:37:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-02 00:00:00] to [2018-03-03 00:00:00] , count:  266--logDate: [2018/7/15 11:37:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-02 00:00:00] to [2018-03-03 00:00:00] , count:  0--logDate: [2018/7/15 11:37:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:37:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [40] #####[2018/7/15 11:37:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-03 00:00:00] to [2018-03-04 00:00:00] , count:  266--logDate: [2018/7/15 11:37:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-03 00:00:00] to [2018-03-04 00:00:00] , count:  0--logDate: [2018/7/15 11:37:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:37:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [41] #####[2018/7/15 11:37:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-04 00:00:00] to [2018-03-05 00:00:00] , count:  258--logDate: [2018/7/15 11:38:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-04 00:00:00] to [2018-03-05 00:00:00] , count:  0--logDate: [2018/7/15 11:38:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:38:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [42] #####[2018/7/15 11:38:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-05 00:00:00] to [2018-03-06 00:00:00] , count:  236--logDate: [2018/7/15 11:38:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-05 00:00:00] to [2018-03-06 00:00:00] , count:  0--logDate: [2018/7/15 11:38:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:38:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [43] #####[2018/7/15 11:38:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-06 00:00:00] to [2018-03-07 00:00:00] , count:  244--logDate: [2018/7/15 11:38:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-06 00:00:00] to [2018-03-07 00:00:00] , count:  0--logDate: [2018/7/15 11:38:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:38:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [44] #####[2018/7/15 11:38:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-07 00:00:00] to [2018-03-08 00:00:00] , count:  242--logDate: [2018/7/15 11:38:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-07 00:00:00] to [2018-03-08 00:00:00] , count:  0--logDate: [2018/7/15 11:38:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:38:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [45] #####[2018/7/15 11:38:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-08 00:00:00] to [2018-03-09 00:00:00] , count:  240--logDate: [2018/7/15 11:38:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-08 00:00:00] to [2018-03-09 00:00:00] , count:  0--logDate: [2018/7/15 11:38:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:38:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [46] #####[2018/7/15 11:38:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-09 00:00:00] to [2018-03-10 00:00:00] , count:  237--logDate: [2018/7/15 11:38:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-09 00:00:00] to [2018-03-10 00:00:00] , count:  0--logDate: [2018/7/15 11:38:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:38:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [47] #####[2018/7/15 11:38:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-10 00:00:00] to [2018-03-11 00:00:00] , count:  231--logDate: [2018/7/15 11:39:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-10 00:00:00] to [2018-03-11 00:00:00] , count:  0--logDate: [2018/7/15 11:39:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:39:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [48] #####[2018/7/15 11:39:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-11 00:00:00] to [2018-03-12 00:00:00] , count:  218--logDate: [2018/7/15 11:39:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-11 00:00:00] to [2018-03-12 00:00:00] , count:  0--logDate: [2018/7/15 11:39:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:39:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [49] #####[2018/7/15 11:39:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-12 00:00:00] to [2018-03-13 00:00:00] , count:  246--logDate: [2018/7/15 11:39:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-12 00:00:00] to [2018-03-13 00:00:00] , count:  0--logDate: [2018/7/15 11:39:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:39:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [50] #####[2018/7/15 11:39:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-13 00:00:00] to [2018-03-14 00:00:00] , count:  269--logDate: [2018/7/15 11:39:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-13 00:00:00] to [2018-03-14 00:00:00] , count:  0--logDate: [2018/7/15 11:39:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:39:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [51] #####[2018/7/15 11:39:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-14 00:00:00] to [2018-03-15 00:00:00] , count:  262--logDate: [2018/7/15 11:39:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-14 00:00:00] to [2018-03-15 00:00:00] , count:  0--logDate: [2018/7/15 11:39:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:39:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [52] #####[2018/7/15 11:39:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-15 00:00:00] to [2018-03-16 00:00:00] , count:  232--logDate: [2018/7/15 11:39:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-15 00:00:00] to [2018-03-16 00:00:00] , count:  0--logDate: [2018/7/15 11:39:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:39:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [53] #####[2018/7/15 11:39:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-16 00:00:00] to [2018-03-17 00:00:00] , count:  321--logDate: [2018/7/15 11:40:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-16 00:00:00] to [2018-03-17 00:00:00] , count:  0--logDate: [2018/7/15 11:40:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:40:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [54] #####[2018/7/15 11:40:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-17 00:00:00] to [2018-03-18 00:00:00] , count:  427--logDate: [2018/7/15 11:40:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-17 00:00:00] to [2018-03-18 00:00:00] , count:  0--logDate: [2018/7/15 11:40:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:40:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [55] #####[2018/7/15 11:40:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-18 00:00:00] to [2018-03-19 00:00:00] , count:  452--logDate: [2018/7/15 11:40:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-18 00:00:00] to [2018-03-19 00:00:00] , count:  0--logDate: [2018/7/15 11:40:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:40:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [56] #####[2018/7/15 11:40:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-19 00:00:00] to [2018-03-20 00:00:00] , count:  274--logDate: [2018/7/15 11:40:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-19 00:00:00] to [2018-03-20 00:00:00] , count:  0--logDate: [2018/7/15 11:40:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:40:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [57] #####[2018/7/15 11:40:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-20 00:00:00] to [2018-03-21 00:00:00] , count:  449--logDate: [2018/7/15 11:40:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-20 00:00:00] to [2018-03-21 00:00:00] , count:  0--logDate: [2018/7/15 11:40:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:40:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [58] #####[2018/7/15 11:40:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-21 00:00:00] to [2018-03-22 00:00:00] , count:  467--logDate: [2018/7/15 11:40:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-21 00:00:00] to [2018-03-22 00:00:00] , count:  0--logDate: [2018/7/15 11:40:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:40:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [59] #####[2018/7/15 11:40:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-22 00:00:00] to [2018-03-23 00:00:00] , count:  441--logDate: [2018/7/15 11:41:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-22 00:00:00] to [2018-03-23 00:00:00] , count:  0--logDate: [2018/7/15 11:41:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:41:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [60] #####[2018/7/15 11:41:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-23 00:00:00] to [2018-03-24 00:00:00] , count:  483--logDate: [2018/7/15 11:41:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-23 00:00:00] to [2018-03-24 00:00:00] , count:  0--logDate: [2018/7/15 11:41:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:41:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [61] #####[2018/7/15 11:41:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-24 00:00:00] to [2018-03-25 00:00:00] , count:  523--logDate: [2018/7/15 11:41:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-24 00:00:00] to [2018-03-25 00:00:00] , count:  0--logDate: [2018/7/15 11:41:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:41:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [62] #####[2018/7/15 11:41:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-25 00:00:00] to [2018-03-26 00:00:00] , count:  532--logDate: [2018/7/15 11:41:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-25 00:00:00] to [2018-03-26 00:00:00] , count:  0--logDate: [2018/7/15 11:41:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:41:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [63] #####[2018/7/15 11:41:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-26 00:00:00] to [2018-03-27 00:00:00] , count:  550--logDate: [2018/7/15 11:41:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-26 00:00:00] to [2018-03-27 00:00:00] , count:  0--logDate: [2018/7/15 11:41:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:41:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [64] #####[2018/7/15 11:41:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-27 00:00:00] to [2018-03-28 00:00:00] , count:  577--logDate: [2018/7/15 11:41:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-27 00:00:00] to [2018-03-28 00:00:00] , count:  0--logDate: [2018/7/15 11:41:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:41:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [65] #####[2018/7/15 11:41:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-28 00:00:00] to [2018-03-29 00:00:00] , count:  581--logDate: [2018/7/15 11:42:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-28 00:00:00] to [2018-03-29 00:00:00] , count:  0--logDate: [2018/7/15 11:42:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:42:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [66] #####[2018/7/15 11:42:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-29 00:00:00] to [2018-03-30 00:00:00] , count:  629--logDate: [2018/7/15 11:42:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-29 00:00:00] to [2018-03-30 00:00:00] , count:  0--logDate: [2018/7/15 11:42:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:42:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [67] #####[2018/7/15 11:42:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-30 00:00:00] to [2018-03-31 00:00:00] , count:  651--logDate: [2018/7/15 11:42:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-30 00:00:00] to [2018-03-31 00:00:00] , count:  0--logDate: [2018/7/15 11:42:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:42:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [68] #####[2018/7/15 11:42:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-31 00:00:00] to [2018-04-01 00:00:00] , count:  706--logDate: [2018/7/15 11:42:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-03-31 00:00:00] to [2018-04-01 00:00:00] , count:  0--logDate: [2018/7/15 11:42:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:42:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [69] #####[2018/7/15 11:42:38]
+ 
+%%%%%%%%%%%%%%2018/3/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/3/1 0:00:00] to [2018-03-31 23:59:59] , count:  1007--logDate: [2018/7/15 11:42:47]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-3
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/3/1 0:00:00] to [2018-03-31 23:59:59] , count:  0--logDate: [2018/7/15 11:42:47]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-3
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:42:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-01 00:00:00] to [2018-04-02 00:00:00] , count:  740--logDate: [2018/7/15 11:42:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-01 00:00:00] to [2018-04-02 00:00:00] , count:  0--logDate: [2018/7/15 11:42:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:42:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [70] #####[2018/7/15 11:42:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-02 00:00:00] to [2018-04-03 00:00:00] , count:  764--logDate: [2018/7/15 11:42:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-02 00:00:00] to [2018-04-03 00:00:00] , count:  0--logDate: [2018/7/15 11:42:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:42:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [71] #####[2018/7/15 11:42:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-03 00:00:00] to [2018-04-04 00:00:00] , count:  721--logDate: [2018/7/15 11:43:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-03 00:00:00] to [2018-04-04 00:00:00] , count:  0--logDate: [2018/7/15 11:43:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:43:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [72] #####[2018/7/15 11:43:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-04 00:00:00] to [2018-04-05 00:00:00] , count:  648--logDate: [2018/7/15 11:43:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-04 00:00:00] to [2018-04-05 00:00:00] , count:  0--logDate: [2018/7/15 11:43:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:43:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [73] #####[2018/7/15 11:43:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-05 00:00:00] to [2018-04-06 00:00:00] , count:  645--logDate: [2018/7/15 11:43:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-05 00:00:00] to [2018-04-06 00:00:00] , count:  0--logDate: [2018/7/15 11:43:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:43:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [74] #####[2018/7/15 11:43:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-06 00:00:00] to [2018-04-07 00:00:00] , count:  642--logDate: [2018/7/15 11:43:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-06 00:00:00] to [2018-04-07 00:00:00] , count:  0--logDate: [2018/7/15 11:43:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:43:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [75] #####[2018/7/15 11:43:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-07 00:00:00] to [2018-04-08 00:00:00] , count:  685--logDate: [2018/7/15 11:43:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-07 00:00:00] to [2018-04-08 00:00:00] , count:  0--logDate: [2018/7/15 11:43:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:43:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [76] #####[2018/7/15 11:43:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-08 00:00:00] to [2018-04-09 00:00:00] , count:  718--logDate: [2018/7/15 11:43:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-08 00:00:00] to [2018-04-09 00:00:00] , count:  0--logDate: [2018/7/15 11:43:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:43:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [77] #####[2018/7/15 11:43:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-09 00:00:00] to [2018-04-10 00:00:00] , count:  725--logDate: [2018/7/15 11:44:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-09 00:00:00] to [2018-04-10 00:00:00] , count:  0--logDate: [2018/7/15 11:44:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:44:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [78] #####[2018/7/15 11:44:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-10 00:00:00] to [2018-04-11 00:00:00] , count:  698--logDate: [2018/7/15 11:44:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-10 00:00:00] to [2018-04-11 00:00:00] , count:  0--logDate: [2018/7/15 11:44:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:44:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [79] #####[2018/7/15 11:44:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-11 00:00:00] to [2018-04-12 00:00:00] , count:  740--logDate: [2018/7/15 11:44:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-11 00:00:00] to [2018-04-12 00:00:00] , count:  0--logDate: [2018/7/15 11:44:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:44:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [80] #####[2018/7/15 11:44:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-12 00:00:00] to [2018-04-13 00:00:00] , count:  711--logDate: [2018/7/15 11:44:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-12 00:00:00] to [2018-04-13 00:00:00] , count:  0--logDate: [2018/7/15 11:44:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:44:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [81] #####[2018/7/15 11:44:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-13 00:00:00] to [2018-04-14 00:00:00] , count:  596--logDate: [2018/7/15 11:44:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-13 00:00:00] to [2018-04-14 00:00:00] , count:  0--logDate: [2018/7/15 11:44:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:44:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [82] #####[2018/7/15 11:44:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-14 00:00:00] to [2018-04-15 00:00:00] , count:  633--logDate: [2018/7/15 11:44:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-14 00:00:00] to [2018-04-15 00:00:00] , count:  0--logDate: [2018/7/15 11:44:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:44:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [83] #####[2018/7/15 11:44:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-15 00:00:00] to [2018-04-16 00:00:00] , count:  710--logDate: [2018/7/15 11:45:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-15 00:00:00] to [2018-04-16 00:00:00] , count:  0--logDate: [2018/7/15 11:45:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:45:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [84] #####[2018/7/15 11:45:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-16 00:00:00] to [2018-04-17 00:00:00] , count:  684--logDate: [2018/7/15 11:45:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-16 00:00:00] to [2018-04-17 00:00:00] , count:  0--logDate: [2018/7/15 11:45:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:45:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [85] #####[2018/7/15 11:45:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-17 00:00:00] to [2018-04-18 00:00:00] , count:  671--logDate: [2018/7/15 11:45:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-17 00:00:00] to [2018-04-18 00:00:00] , count:  0--logDate: [2018/7/15 11:45:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:45:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [86] #####[2018/7/15 11:45:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-18 00:00:00] to [2018-04-19 00:00:00] , count:  694--logDate: [2018/7/15 11:45:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-18 00:00:00] to [2018-04-19 00:00:00] , count:  0--logDate: [2018/7/15 11:45:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:45:38]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [87] #####[2018/7/15 11:45:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-19 00:00:00] to [2018-04-20 00:00:00] , count:  714--logDate: [2018/7/15 11:45:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-19 00:00:00] to [2018-04-20 00:00:00] , count:  0--logDate: [2018/7/15 11:45:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:45:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [88] #####[2018/7/15 11:45:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-20 00:00:00] to [2018-04-21 00:00:00] , count:  681--logDate: [2018/7/15 11:45:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-20 00:00:00] to [2018-04-21 00:00:00] , count:  0--logDate: [2018/7/15 11:45:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:45:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [89] #####[2018/7/15 11:45:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-21 00:00:00] to [2018-04-22 00:00:00] , count:  736--logDate: [2018/7/15 11:46:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-21 00:00:00] to [2018-04-22 00:00:00] , count:  0--logDate: [2018/7/15 11:46:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:46:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [90] #####[2018/7/15 11:46:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-22 00:00:00] to [2018-04-23 00:00:00] , count:  746--logDate: [2018/7/15 11:46:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-22 00:00:00] to [2018-04-23 00:00:00] , count:  0--logDate: [2018/7/15 11:46:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:46:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [91] #####[2018/7/15 11:46:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-23 00:00:00] to [2018-04-24 00:00:00] , count:  666--logDate: [2018/7/15 11:46:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-23 00:00:00] to [2018-04-24 00:00:00] , count:  0--logDate: [2018/7/15 11:46:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:46:28]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [92] #####[2018/7/15 11:46:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-24 00:00:00] to [2018-04-25 00:00:00] , count:  687--logDate: [2018/7/15 11:46:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-24 00:00:00] to [2018-04-25 00:00:00] , count:  0--logDate: [2018/7/15 11:46:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:46:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [93] #####[2018/7/15 11:46:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-25 00:00:00] to [2018-04-26 00:00:00] , count:  746--logDate: [2018/7/15 11:46:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-25 00:00:00] to [2018-04-26 00:00:00] , count:  0--logDate: [2018/7/15 11:46:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:46:48]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [94] #####[2018/7/15 11:46:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-26 00:00:00] to [2018-04-27 00:00:00] , count:  750--logDate: [2018/7/15 11:46:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-26 00:00:00] to [2018-04-27 00:00:00] , count:  0--logDate: [2018/7/15 11:46:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:46:58]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [95] #####[2018/7/15 11:46:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-27 00:00:00] to [2018-04-28 00:00:00] , count:  750--logDate: [2018/7/15 11:47:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-27 00:00:00] to [2018-04-28 00:00:00] , count:  0--logDate: [2018/7/15 11:47:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:47:08]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [96] #####[2018/7/15 11:47:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-28 00:00:00] to [2018-04-29 00:00:00] , count:  779--logDate: [2018/7/15 11:47:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-28 00:00:00] to [2018-04-29 00:00:00] , count:  0--logDate: [2018/7/15 11:47:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:47:18]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [97] #####[2018/7/15 11:47:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-29 00:00:00] to [2018-04-30 00:00:00] , count:  759--logDate: [2018/7/15 11:47:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-29 00:00:00] to [2018-04-30 00:00:00] , count:  0--logDate: [2018/7/15 11:47:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:47:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [98] #####[2018/7/15 11:47:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-30 00:00:00] to [2018-05-01 00:00:00] , count:  757--logDate: [2018/7/15 11:47:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-04-30 00:00:00] to [2018-05-01 00:00:00] , count:  0--logDate: [2018/7/15 11:47:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:47:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [99] #####[2018/7/15 11:47:39]
+ 
+%%%%%%%%%%%%%%2018/4/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/4/1 0:00:00] to [2018-04-30 23:59:59] , count:  1471--logDate: [2018/7/15 11:47:47]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-4
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/4/1 0:00:00] to [2018-04-30 23:59:59] , count:  0--logDate: [2018/7/15 11:47:47]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-4
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:47:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-01 00:00:00] to [2018-05-02 00:00:00] , count:  706--logDate: [2018/7/15 11:47:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-01 00:00:00] to [2018-05-02 00:00:00] , count:  0--logDate: [2018/7/15 11:47:49]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:47:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [100] #####[2018/7/15 11:47:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-02 00:00:00] to [2018-05-03 00:00:00] , count:  722--logDate: [2018/7/15 11:47:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-02 00:00:00] to [2018-05-03 00:00:00] , count:  0--logDate: [2018/7/15 11:47:59]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:47:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [101] #####[2018/7/15 11:47:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-03 00:00:00] to [2018-05-04 00:00:00] , count:  726--logDate: [2018/7/15 11:48:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-03 00:00:00] to [2018-05-04 00:00:00] , count:  0--logDate: [2018/7/15 11:48:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:48:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [102] #####[2018/7/15 11:48:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-04 00:00:00] to [2018-05-05 00:00:00] , count:  730--logDate: [2018/7/15 11:48:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-04 00:00:00] to [2018-05-05 00:00:00] , count:  0--logDate: [2018/7/15 11:48:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:48:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [103] #####[2018/7/15 11:48:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-05 00:00:00] to [2018-05-06 00:00:00] , count:  768--logDate: [2018/7/15 11:48:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-05 00:00:00] to [2018-05-06 00:00:00] , count:  0--logDate: [2018/7/15 11:48:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:48:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [104] #####[2018/7/15 11:48:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-06 00:00:00] to [2018-05-07 00:00:00] , count:  734--logDate: [2018/7/15 11:48:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-06 00:00:00] to [2018-05-07 00:00:00] , count:  0--logDate: [2018/7/15 11:48:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:48:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [105] #####[2018/7/15 11:48:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-07 00:00:00] to [2018-05-08 00:00:00] , count:  723--logDate: [2018/7/15 11:48:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-07 00:00:00] to [2018-05-08 00:00:00] , count:  0--logDate: [2018/7/15 11:48:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:48:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [106] #####[2018/7/15 11:48:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-08 00:00:00] to [2018-05-09 00:00:00] , count:  750--logDate: [2018/7/15 11:48:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-08 00:00:00] to [2018-05-09 00:00:00] , count:  0--logDate: [2018/7/15 11:48:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:48:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [107] #####[2018/7/15 11:48:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-09 00:00:00] to [2018-05-10 00:00:00] , count:  735--logDate: [2018/7/15 11:49:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-09 00:00:00] to [2018-05-10 00:00:00] , count:  0--logDate: [2018/7/15 11:49:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:49:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [108] #####[2018/7/15 11:49:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-10 00:00:00] to [2018-05-11 00:00:00] , count:  743--logDate: [2018/7/15 11:49:17]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-10 00:00:00] to [2018-05-11 00:00:00] , count:  0--logDate: [2018/7/15 11:49:19]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:49:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [109] #####[2018/7/15 11:49:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-11 00:00:00] to [2018-05-12 00:00:00] , count:  696--logDate: [2018/7/15 11:49:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-11 00:00:00] to [2018-05-12 00:00:00] , count:  0--logDate: [2018/7/15 11:49:29]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:49:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [110] #####[2018/7/15 11:49:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-12 00:00:00] to [2018-05-13 00:00:00] , count:  689--logDate: [2018/7/15 11:49:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-12 00:00:00] to [2018-05-13 00:00:00] , count:  0--logDate: [2018/7/15 11:49:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:49:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [111] #####[2018/7/15 11:49:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-13 00:00:00] to [2018-05-14 00:00:00] , count:  682--logDate: [2018/7/15 11:49:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-13 00:00:00] to [2018-05-14 00:00:00] , count:  0--logDate: [2018/7/15 11:49:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:49:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [112] #####[2018/7/15 11:49:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-14 00:00:00] to [2018-05-15 00:00:00] , count:  741--logDate: [2018/7/15 11:49:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-14 00:00:00] to [2018-05-15 00:00:00] , count:  0--logDate: [2018/7/15 11:49:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:49:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [113] #####[2018/7/15 11:49:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-15 00:00:00] to [2018-05-16 00:00:00] , count:  728--logDate: [2018/7/15 11:50:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-15 00:00:00] to [2018-05-16 00:00:00] , count:  0--logDate: [2018/7/15 11:50:08]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:50:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [114] #####[2018/7/15 11:50:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-16 00:00:00] to [2018-05-17 00:00:00] , count:  720--logDate: [2018/7/15 11:50:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-16 00:00:00] to [2018-05-17 00:00:00] , count:  0--logDate: [2018/7/15 11:50:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:50:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [115] #####[2018/7/15 11:50:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-17 00:00:00] to [2018-05-18 00:00:00] , count:  715--logDate: [2018/7/15 11:50:27]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-17 00:00:00] to [2018-05-18 00:00:00] , count:  0--logDate: [2018/7/15 11:50:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:50:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [116] #####[2018/7/15 11:50:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-18 00:00:00] to [2018-05-19 00:00:00] , count:  728--logDate: [2018/7/15 11:50:37]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-18 00:00:00] to [2018-05-19 00:00:00] , count:  0--logDate: [2018/7/15 11:50:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:50:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [117] #####[2018/7/15 11:50:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-19 00:00:00] to [2018-05-20 00:00:00] , count:  672--logDate: [2018/7/15 11:50:47]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-19 00:00:00] to [2018-05-20 00:00:00] , count:  0--logDate: [2018/7/15 11:50:48]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:50:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [118] #####[2018/7/15 11:50:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-20 00:00:00] to [2018-05-21 00:00:00] , count:  669--logDate: [2018/7/15 11:50:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-20 00:00:00] to [2018-05-21 00:00:00] , count:  0--logDate: [2018/7/15 11:50:58]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:50:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [119] #####[2018/7/15 11:50:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-21 00:00:00] to [2018-05-22 00:00:00] , count:  628--logDate: [2018/7/15 11:51:07]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-21 00:00:00] to [2018-05-22 00:00:00] , count:  0--logDate: [2018/7/15 11:51:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:51:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [120] #####[2018/7/15 11:51:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-22 00:00:00] to [2018-05-23 00:00:00] , count:  617--logDate: [2018/7/15 11:51:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-22 00:00:00] to [2018-05-23 00:00:00] , count:  0--logDate: [2018/7/15 11:51:18]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:51:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [121] #####[2018/7/15 11:51:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-23 00:00:00] to [2018-05-24 00:00:00] , count:  603--logDate: [2018/7/15 11:51:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-23 00:00:00] to [2018-05-24 00:00:00] , count:  0--logDate: [2018/7/15 11:51:28]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:51:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [122] #####[2018/7/15 11:51:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-24 00:00:00] to [2018-05-25 00:00:00] , count:  648--logDate: [2018/7/15 11:51:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-24 00:00:00] to [2018-05-25 00:00:00] , count:  0--logDate: [2018/7/15 11:51:38]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:51:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [123] #####[2018/7/15 11:51:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-25 00:00:00] to [2018-05-26 00:00:00] , count:  639--logDate: [2018/7/15 11:51:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-25 00:00:00] to [2018-05-26 00:00:00] , count:  0--logDate: [2018/7/15 11:51:49]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:51:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [124] #####[2018/7/15 11:51:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-26 00:00:00] to [2018-05-27 00:00:00] , count:  681--logDate: [2018/7/15 11:51:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-26 00:00:00] to [2018-05-27 00:00:00] , count:  0--logDate: [2018/7/15 11:51:59]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:51:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [125] #####[2018/7/15 11:51:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-27 00:00:00] to [2018-05-28 00:00:00] , count:  730--logDate: [2018/7/15 11:52:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-27 00:00:00] to [2018-05-28 00:00:00] , count:  0--logDate: [2018/7/15 11:52:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:52:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [126] #####[2018/7/15 11:52:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-28 00:00:00] to [2018-05-29 00:00:00] , count:  744--logDate: [2018/7/15 11:52:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-28 00:00:00] to [2018-05-29 00:00:00] , count:  0--logDate: [2018/7/15 11:52:19]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:52:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [127] #####[2018/7/15 11:52:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-29 00:00:00] to [2018-05-30 00:00:00] , count:  762--logDate: [2018/7/15 11:52:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-29 00:00:00] to [2018-05-30 00:00:00] , count:  0--logDate: [2018/7/15 11:52:29]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:52:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [128] #####[2018/7/15 11:52:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-30 00:00:00] to [2018-05-31 00:00:00] , count:  756--logDate: [2018/7/15 11:52:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-30 00:00:00] to [2018-05-31 00:00:00] , count:  0--logDate: [2018/7/15 11:52:39]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:52:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [129] #####[2018/7/15 11:52:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-31 00:00:00] to [2018-06-01 00:00:00] , count:  736--logDate: [2018/7/15 11:52:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-05-31 00:00:00] to [2018-06-01 00:00:00] , count:  0--logDate: [2018/7/15 11:52:49]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:52:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [130] #####[2018/7/15 11:52:49]
+ 
+%%%%%%%%%%%%%%2018/5/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/5/1 0:00:00] to [2018-05-31 23:59:59] , count:  1519--logDate: [2018/7/15 11:52:57]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-5
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/5/1 0:00:00] to [2018-05-31 23:59:59] , count:  0--logDate: [2018/7/15 11:52:57]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-5
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:52:57]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-01 00:00:00] to [2018-06-02 00:00:00] , count:  758--logDate: [2018/7/15 11:52:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-01 00:00:00] to [2018-06-02 00:00:00] , count:  0--logDate: [2018/7/15 11:52:59]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:52:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [131] #####[2018/7/15 11:52:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-02 00:00:00] to [2018-06-03 00:00:00] , count:  768--logDate: [2018/7/15 11:53:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-02 00:00:00] to [2018-06-03 00:00:00] , count:  0--logDate: [2018/7/15 11:53:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:53:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [132] #####[2018/7/15 11:53:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-03 00:00:00] to [2018-06-04 00:00:00] , count:  766--logDate: [2018/7/15 11:53:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-03 00:00:00] to [2018-06-04 00:00:00] , count:  0--logDate: [2018/7/15 11:53:19]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:53:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [133] #####[2018/7/15 11:53:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-04 00:00:00] to [2018-06-05 00:00:00] , count:  721--logDate: [2018/7/15 11:53:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-04 00:00:00] to [2018-06-05 00:00:00] , count:  0--logDate: [2018/7/15 11:53:29]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:53:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [134] #####[2018/7/15 11:53:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-05 00:00:00] to [2018-06-06 00:00:00] , count:  763--logDate: [2018/7/15 11:53:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-05 00:00:00] to [2018-06-06 00:00:00] , count:  0--logDate: [2018/7/15 11:53:39]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:53:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [135] #####[2018/7/15 11:53:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-06 00:00:00] to [2018-06-07 00:00:00] , count:  751--logDate: [2018/7/15 11:53:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-06 00:00:00] to [2018-06-07 00:00:00] , count:  0--logDate: [2018/7/15 11:53:49]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:53:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [136] #####[2018/7/15 11:53:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-07 00:00:00] to [2018-06-08 00:00:00] , count:  758--logDate: [2018/7/15 11:53:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-07 00:00:00] to [2018-06-08 00:00:00] , count:  0--logDate: [2018/7/15 11:53:59]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:53:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [137] #####[2018/7/15 11:53:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-08 00:00:00] to [2018-06-09 00:00:00] , count:  746--logDate: [2018/7/15 11:54:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-08 00:00:00] to [2018-06-09 00:00:00] , count:  0--logDate: [2018/7/15 11:54:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:54:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [138] #####[2018/7/15 11:54:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-09 00:00:00] to [2018-06-10 00:00:00] , count:  741--logDate: [2018/7/15 11:54:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-09 00:00:00] to [2018-06-10 00:00:00] , count:  0--logDate: [2018/7/15 11:54:19]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:54:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [139] #####[2018/7/15 11:54:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-10 00:00:00] to [2018-06-11 00:00:00] , count:  711--logDate: [2018/7/15 11:54:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-10 00:00:00] to [2018-06-11 00:00:00] , count:  0--logDate: [2018/7/15 11:54:29]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:54:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [140] #####[2018/7/15 11:54:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-11 00:00:00] to [2018-06-12 00:00:00] , count:  713--logDate: [2018/7/15 11:54:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-11 00:00:00] to [2018-06-12 00:00:00] , count:  0--logDate: [2018/7/15 11:54:39]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:54:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [141] #####[2018/7/15 11:54:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-12 00:00:00] to [2018-06-13 00:00:00] , count:  754--logDate: [2018/7/15 11:54:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-12 00:00:00] to [2018-06-13 00:00:00] , count:  0--logDate: [2018/7/15 11:54:49]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:54:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [142] #####[2018/7/15 11:54:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-13 00:00:00] to [2018-06-14 00:00:00] , count:  756--logDate: [2018/7/15 11:54:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-13 00:00:00] to [2018-06-14 00:00:00] , count:  0--logDate: [2018/7/15 11:54:59]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:54:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [143] #####[2018/7/15 11:54:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-14 00:00:00] to [2018-06-15 00:00:00] , count:  741--logDate: [2018/7/15 11:55:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-14 00:00:00] to [2018-06-15 00:00:00] , count:  0--logDate: [2018/7/15 11:55:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:55:10]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [144] #####[2018/7/15 11:55:10]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-15 00:00:00] to [2018-06-16 00:00:00] , count:  789--logDate: [2018/7/15 11:55:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-15 00:00:00] to [2018-06-16 00:00:00] , count:  0--logDate: [2018/7/15 11:55:19]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:55:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [145] #####[2018/7/15 11:55:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-16 00:00:00] to [2018-06-17 00:00:00] , count:  779--logDate: [2018/7/15 11:55:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-16 00:00:00] to [2018-06-17 00:00:00] , count:  0--logDate: [2018/7/15 11:55:29]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:55:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [146] #####[2018/7/15 11:55:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-17 00:00:00] to [2018-06-18 00:00:00] , count:  812--logDate: [2018/7/15 11:55:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-17 00:00:00] to [2018-06-18 00:00:00] , count:  0--logDate: [2018/7/15 11:55:39]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:55:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [147] #####[2018/7/15 11:55:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-18 00:00:00] to [2018-06-19 00:00:00] , count:  817--logDate: [2018/7/15 11:55:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-18 00:00:00] to [2018-06-19 00:00:00] , count:  0--logDate: [2018/7/15 11:55:49]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:55:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [148] #####[2018/7/15 11:55:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-19 00:00:00] to [2018-06-20 00:00:00] , count:  834--logDate: [2018/7/15 11:55:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-19 00:00:00] to [2018-06-20 00:00:00] , count:  0--logDate: [2018/7/15 11:55:59]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:55:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [149] #####[2018/7/15 11:55:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-20 00:00:00] to [2018-06-21 00:00:00] , count:  789--logDate: [2018/7/15 11:56:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-20 00:00:00] to [2018-06-21 00:00:00] , count:  0--logDate: [2018/7/15 11:56:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:56:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [150] #####[2018/7/15 11:56:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-21 00:00:00] to [2018-06-22 00:00:00] , count:  783--logDate: [2018/7/15 11:56:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-21 00:00:00] to [2018-06-22 00:00:00] , count:  0--logDate: [2018/7/15 11:56:19]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:56:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [151] #####[2018/7/15 11:56:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-22 00:00:00] to [2018-06-23 00:00:00] , count:  777--logDate: [2018/7/15 11:56:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-22 00:00:00] to [2018-06-23 00:00:00] , count:  13--logDate: [2018/7/15 11:56:29]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:56:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [152] #####[2018/7/15 11:56:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-23 00:00:00] to [2018-06-24 00:00:00] , count:  809--logDate: [2018/7/15 11:56:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-23 00:00:00] to [2018-06-24 00:00:00] , count:  134--logDate: [2018/7/15 11:56:39]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:56:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [153] #####[2018/7/15 11:56:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-24 00:00:00] to [2018-06-25 00:00:00] , count:  808--logDate: [2018/7/15 11:56:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-24 00:00:00] to [2018-06-25 00:00:00] , count:  135--logDate: [2018/7/15 11:56:49]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:56:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [154] #####[2018/7/15 11:56:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-25 00:00:00] to [2018-06-26 00:00:00] , count:  710--logDate: [2018/7/15 11:56:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-25 00:00:00] to [2018-06-26 00:00:00] , count:  6--logDate: [2018/7/15 11:56:59]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:56:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [155] #####[2018/7/15 11:56:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-26 00:00:00] to [2018-06-27 00:00:00] , count:  653--logDate: [2018/7/15 11:57:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-26 00:00:00] to [2018-06-27 00:00:00] , count:  1--logDate: [2018/7/15 11:57:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:57:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [156] #####[2018/7/15 11:57:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-27 00:00:00] to [2018-06-28 00:00:00] , count:  641--logDate: [2018/7/15 11:57:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-27 00:00:00] to [2018-06-28 00:00:00] , count:  0--logDate: [2018/7/15 11:57:19]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:57:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [157] #####[2018/7/15 11:57:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-28 00:00:00] to [2018-06-29 00:00:00] , count:  688--logDate: [2018/7/15 11:57:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-28 00:00:00] to [2018-06-29 00:00:00] , count:  0--logDate: [2018/7/15 11:57:29]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:57:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [158] #####[2018/7/15 11:57:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-29 00:00:00] to [2018-06-30 00:00:00] , count:  707--logDate: [2018/7/15 11:57:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-29 00:00:00] to [2018-06-30 00:00:00] , count:  9--logDate: [2018/7/15 11:57:39]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:57:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [159] #####[2018/7/15 11:57:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-30 00:00:00] to [2018-07-01 00:00:00] , count:  708--logDate: [2018/7/15 11:57:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-06-30 00:00:00] to [2018-07-01 00:00:00] , count:  11--logDate: [2018/7/15 11:57:49]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:57:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [160] #####[2018/7/15 11:57:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-01 00:00:00] to [2018-07-02 00:00:00] , count:  755--logDate: [2018/7/15 11:57:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-01 00:00:00] to [2018-07-02 00:00:00] , count:  16--logDate: [2018/7/15 11:57:59]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:57:59]
+ 
+%%%%%%%%%%%%%%2018/6/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/6/1 0:00:00] to [2018-06-30 23:59:59] , count:  1553--logDate: [2018/7/15 11:57:59]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-6
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/6/1 0:00:00] to [2018-06-30 23:59:59] , count:  17--logDate: [2018/7/15 11:57:59]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-6
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:57:59]
+ 
+finished generating source tables from Polling_Log_Sta_Month, time from   [2018-01-01 00:00:00] to [2018-12-31 23:59:59] , count:  241--logDate: [2018/7/15 11:57:59]
+ 
+finish writing data to table Polling_Log_Sta_Year : 2018
+ 
+finished generating source tables from Polling_Log_Sta_Month_Electricity, time from   [2018-01-01 00:00:00] to [2018-12-31 23:59:59] , count:  2--logDate: [2018/7/15 11:57:59]
+ 
+finish writing data to table Polling_Log_Sta_Year_Electricity : 2018
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:57:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [161] #####[2018/7/15 11:57:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-02 00:00:00] to [2018-07-03 00:00:00] , count:  714--logDate: [2018/7/15 11:58:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-02 00:00:00] to [2018-07-03 00:00:00] , count:  13--logDate: [2018/7/15 11:58:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:09]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  111--logDate: [2018/7/15 11:58:09]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  5--logDate: [2018/7/15 11:58:09]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [162] #####[2018/7/15 11:58:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-03 00:00:00] to [2018-07-04 00:00:00] , count:  745--logDate: [2018/7/15 11:58:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-03 00:00:00] to [2018-07-04 00:00:00] , count:  33--logDate: [2018/7/15 11:58:19]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:19]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  167--logDate: [2018/7/15 11:58:19]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  8--logDate: [2018/7/15 11:58:19]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [163] #####[2018/7/15 11:58:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-04 00:00:00] to [2018-07-05 00:00:00] , count:  780--logDate: [2018/7/15 11:58:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-04 00:00:00] to [2018-07-05 00:00:00] , count:  30--logDate: [2018/7/15 11:58:29]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:29]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  223--logDate: [2018/7/15 11:58:29]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  11--logDate: [2018/7/15 11:58:29]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [164] #####[2018/7/15 11:58:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-05 00:00:00] to [2018-07-06 00:00:00] , count:  759--logDate: [2018/7/15 11:58:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-05 00:00:00] to [2018-07-06 00:00:00] , count:  29--logDate: [2018/7/15 11:58:39]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:39]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  279--logDate: [2018/7/15 11:58:39]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  14--logDate: [2018/7/15 11:58:39]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [165] #####[2018/7/15 11:58:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-06 00:00:00] to [2018-07-07 00:00:00] , count:  770--logDate: [2018/7/15 11:58:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-06 00:00:00] to [2018-07-07 00:00:00] , count:  30--logDate: [2018/7/15 11:58:49]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:49]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  335--logDate: [2018/7/15 11:58:49]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  17--logDate: [2018/7/15 11:58:49]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [166] #####[2018/7/15 11:58:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-07 00:00:00] to [2018-07-08 00:00:00] , count:  773--logDate: [2018/7/15 11:58:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-07 00:00:00] to [2018-07-08 00:00:00] , count:  35--logDate: [2018/7/15 11:58:59]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:59]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  391--logDate: [2018/7/15 11:58:59]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  20--logDate: [2018/7/15 11:58:59]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:58:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [167] #####[2018/7/15 11:58:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-08 00:00:00] to [2018-07-09 00:00:00] , count:  75--logDate: [2018/7/15 11:59:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-08 00:00:00] to [2018-07-09 00:00:00] , count:  4--logDate: [2018/7/15 11:59:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:09]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  447--logDate: [2018/7/15 11:59:09]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  23--logDate: [2018/7/15 11:59:09]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [168] #####[2018/7/15 11:59:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-09 00:00:00] to [2018-07-10 00:00:00] , count:  0--logDate: [2018/7/15 11:59:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-09 00:00:00] to [2018-07-10 00:00:00] , count:  0--logDate: [2018/7/15 11:59:19]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:19]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  503--logDate: [2018/7/15 11:59:19]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  26--logDate: [2018/7/15 11:59:19]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [169] #####[2018/7/15 11:59:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-10 00:00:00] to [2018-07-11 00:00:00] , count:  0--logDate: [2018/7/15 11:59:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-10 00:00:00] to [2018-07-11 00:00:00] , count:  0--logDate: [2018/7/15 11:59:29]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:29]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  559--logDate: [2018/7/15 11:59:29]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  29--logDate: [2018/7/15 11:59:29]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [170] #####[2018/7/15 11:59:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-11 00:00:00] to [2018-07-12 00:00:00] , count:  0--logDate: [2018/7/15 11:59:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-11 00:00:00] to [2018-07-12 00:00:00] , count:  0--logDate: [2018/7/15 11:59:39]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:39]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  615--logDate: [2018/7/15 11:59:39]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  32--logDate: [2018/7/15 11:59:39]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [171] #####[2018/7/15 11:59:39]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-12 00:00:00] to [2018-07-13 00:00:00] , count:  0--logDate: [2018/7/15 11:59:48]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-12 00:00:00] to [2018-07-13 00:00:00] , count:  0--logDate: [2018/7/15 11:59:49]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:49]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  671--logDate: [2018/7/15 11:59:49]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  35--logDate: [2018/7/15 11:59:49]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:49]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [172] #####[2018/7/15 11:59:49]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-13 00:00:00] to [2018-07-14 00:00:00] , count:  0--logDate: [2018/7/15 11:59:58]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-13 00:00:00] to [2018-07-14 00:00:00] , count:  0--logDate: [2018/7/15 11:59:59]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:59]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  727--logDate: [2018/7/15 11:59:59]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  38--logDate: [2018/7/15 11:59:59]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 11:59:59]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [173] #####[2018/7/15 11:59:59]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-14 00:00:00] to [2018-07-15 12:00:08] , count:  0--logDate: [2018/7/15 12:00:08]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-14 00:00:00] to [2018-07-15 12:00:08] , count:  0--logDate: [2018/7/15 12:00:09]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 12:00:09]
+ 
+%%%%%%%%%%%%%%2018/7/1 0:00:00%%%%%%%%%%%%%%%%%%%%%%%
+ 
+finished generating source tables from Polling_Log_Sta_Day, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  839--logDate: [2018/7/15 12:00:09]
+ 
+finish writing data to table Polling_Log_Sta_Month, month:2018-7
+ 
+finished generating source tables from Polling_Log_Sta_Day_Electricity, time from   [2018/7/1 0:00:00] to [2018-07-15 23:59:59] , count:  44--logDate: [2018/7/15 12:00:09]
+ 
+finish writing data to table Polling_Log_Sta_Month_Electricity, month:2018-7
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 12:00:09]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [174] #####[2018/7/15 12:00:09]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-15 00:00:00] to [2018-07-15 12:00:18] , count:  0--logDate: [2018/7/15 12:00:18]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-15 00:00:00] to [2018-07-15 12:00:18] , count:  0--logDate: [2018/7/15 12:00:19]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 12:00:19]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [175] #####[2018/7/15 12:00:19]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-15 00:00:00] to [2018-07-15 12:00:28] , count:  0--logDate: [2018/7/15 12:00:28]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-15 00:00:00] to [2018-07-15 12:00:28] , count:  0--logDate: [2018/7/15 12:00:29]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 12:00:29]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [176] #####[2018/7/15 12:00:29]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-15 00:00:00] to [2018-07-15 12:00:38] , count:  0--logDate: [2018/7/15 12:00:38]
+ 
+finished generating source tables from Polling_Log, time from   [2018-07-15 00:00:00] to [2018-07-15 12:00:38] , count:  0--logDate: [2018/7/15 12:00:39]
+ 
+***************** dataBase[ydnew] finished*****[2018/7/15 12:00:39]
+ 
+ 
+ 
+ 
+ 
+ 
+################## ticks [177] #####[2018/7/15 12:00:39]

@@ -7,7 +7,7 @@ using System.Data;
 using YdService.Util;
 using YdService.Model;
 
-namespace ConsoleApplication1.Generater
+namespace YDIOTService.Generater
 {
     public class PSMDBGenerater
     {
@@ -35,8 +35,9 @@ namespace ConsoleApplication1.Generater
         private string dbName;
         private SqlHelper sqlHelper;
         private Dictionary<string, MonthSrcBean> sDic = new Dictionary<string, MonthSrcBean>();
-        
 
+        protected string preTable = "Polling_Log_Sta_Day";
+        protected string updateTable = "Polling_Log_Sta_Month";
         public PSMDBGenerater()
         {
 
@@ -63,7 +64,7 @@ namespace ConsoleApplication1.Generater
         {
             DataTable dayTable = generateSourceTable(startTime);
             DataTable destTable = generatePollingStaMonthTable(dayTable);
-            write2Db(destTable, "Polling_Log_Sta_Month");
+            write2Db(destTable, updateTable);
 
             if ((endTime.Year==proceeTime.Year&&endTime.Month==proceeTime.Month))//&&endTime.Day != CommonUtil.getLastDayOfMonth(startTime))
             {
@@ -80,7 +81,7 @@ namespace ConsoleApplication1.Generater
         public DataTable generatePollingStaMonthTable(DataTable dayTable)
         {
             List<string> mscList = getStaMscIds();
-            DataTable psmTable = CommonUtil.createEmptyPollingStaMonthTable();
+            DataTable psmTable = CommonUtil.createEmptyPollingStaMonthTable(updateTable);
             createInitTable(mscList, psmTable);
             setValue(psmTable);
             CommonUtil.deleteUnusefulData(psmTable, 31);
@@ -102,7 +103,7 @@ namespace ConsoleApplication1.Generater
             netColum += ") as dayNet";
 
 
-            string sql = " select year,month,day,mscid,H23,fcid,haveData," + netColum + " from Polling_Log_Sta_Day where  occurtime>= '" + startTime.ToShortDateString() + "' and occurtime<= '" + endTime.ToString("yyyy-MM-dd 23:59:59") + "'";
+            string sql = " select year,month,day,mscid,H23,fcid,haveData," + netColum + " from " + preTable + " where  occurtime>= '" + startTime.ToShortDateString() + "' and occurtime<= '" + endTime.ToString("yyyy-MM-dd 23:59:59") + "'";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
             {
@@ -117,7 +118,7 @@ namespace ConsoleApplication1.Generater
                 msb.haveData = Convert.ToByte(dataSet.Tables[0].Rows[i]["haveData"]);
                 sDic.Add(msb.getKey(), msb);
             }
-            LogUtil.logGenerateSource("Polling_Log_Sta_Day", startTime.ToString(), endTime.ToString("yyyy-MM-dd 23:59:59"), dataSet.Tables[0].Rows.Count);
+            LogUtil.logGenerateSource(preTable, startTime.ToString(), endTime.ToString("yyyy-MM-dd 23:59:59"), dataSet.Tables[0].Rows.Count);
             return dataSet.Tables[0];// dataSet.Tables[0];
         }
        
@@ -190,16 +191,16 @@ namespace ConsoleApplication1.Generater
         private void write2Db(DataTable plsd, string tableName)
         {
 
-            string deleteSql = "delete from Polling_Log_Sta_Month where occurtime >='" + startTime.Year + "-" + startTime.Month + "-01';";
+            string deleteSql = "delete from "+updateTable+" where occurtime >='" + startTime.Year + "-" + startTime.Month + "-01';";
             sqlHelper.ExecteNonQueryText(deleteSql);
             sqlHelper.DataTableToSQLServer(plsd, tableName);
-            LogUtil.log("finish writing data to table Polling_Log_Sta_Month, month:"+startTime.Year+"-"+startTime.Month);
+            LogUtil.log("finish writing data to table " + updateTable + ", month:" + startTime.Year + "-" + startTime.Month);
         }
 
         private List<string> getStaMscIds()
         {
             List<string> idList = new List<string>();
-            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig()+"))";
+            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig(updateTable)+"))";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             if (CommonUtil.firstTableHaveRow(dataSet))
             {

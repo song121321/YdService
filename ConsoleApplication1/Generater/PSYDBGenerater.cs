@@ -7,7 +7,7 @@ using System.Data;
 using YdService.Util;
 using YdService.Model;
 
-namespace ConsoleApplication1.Generater
+namespace YDIOTService.Generater
 {
     class PSYDBGenerater
     {
@@ -32,6 +32,9 @@ namespace ConsoleApplication1.Generater
         private SqlHelper sqlHelper;
         private readonly static string TIMEFORMAT = "yyyy-MM-dd HH:mm:ss";
 
+        protected string preTable = "Polling_Log_Sta_Month";
+        protected string updateTable = "Polling_Log_Sta_Year";
+
         public PSYDBGenerater()
         {
         }
@@ -48,12 +51,12 @@ namespace ConsoleApplication1.Generater
         public DateTime run()
         {
             Dictionary<string, YearSrcBean> sDic = generateSourceDic(startTime);
-            DataTable psyTable = CommonUtil.createEmptyPollingStaYearTable();
+            DataTable psyTable = CommonUtil.createEmptyPollingStaYearTable(updateTable);
             List<string> mscList = getStaMscIds();
             createInitTable(mscList, psyTable);
             setValue(sDic, psyTable);
             CommonUtil.deleteUnusefulData(psyTable, 12);
-            write2Db(psyTable, "Polling_Log_Sta_Year");
+            write2Db(psyTable, updateTable);
 
             if (startTime.Year == proceeTime.Year)
             {
@@ -81,7 +84,7 @@ namespace ConsoleApplication1.Generater
                 }
             }
             netColum += ") as monthNet";
-            string sql = " select year,month,mscid,D28,D29,D30,D31,fcid,haveData," + netColum + " from Polling_Log_Sta_Month where  occurtime>= '" + startTime.ToString("yyyy-01-01") + "' and occurtime<= '" + startTime.ToString("yyyy-12-31 23:59:59") + "'";
+            string sql = " select year,month,mscid,D28,D29,D30,D31,fcid,haveData," + netColum + " from "+preTable+" where  occurtime>= '" + startTime.ToString("yyyy-01-01") + "' and occurtime<= '" + startTime.ToString("yyyy-12-31 23:59:59") + "'";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
            // LogUtil.log(" finished generating source tables from Polling_Log_Sta_Month from " + startTime.ToString("yyyy - 01 - 01") + " to " + startTime.ToString("yyyy-12-31") + " ,source rows :" + dataSet.Tables[0].Rows.Count);
             for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
@@ -98,7 +101,7 @@ namespace ConsoleApplication1.Generater
                 result.Add(ysb.getKey(), ysb);
             }
 
-            LogUtil.logGenerateSource("Polling_Log_Sta_Month", startTime.ToString("yyyy-01-01 00:00:00"), startTime.ToString("yyyy-12-31 23:59:59"), dataSet.Tables[0].Rows.Count);
+            LogUtil.logGenerateSource(preTable, startTime.ToString("yyyy-01-01 00:00:00"), startTime.ToString("yyyy-12-31 23:59:59"), dataSet.Tables[0].Rows.Count);
 
             return result;
         }
@@ -171,7 +174,7 @@ namespace ConsoleApplication1.Generater
         private List<string> getStaMscIds()
         {
             List<string> idList = new List<string>();
-            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig()+"))";
+            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig(updateTable)+"))";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             if (CommonUtil.firstTableHaveRow(dataSet))
             {
@@ -186,10 +189,10 @@ namespace ConsoleApplication1.Generater
 
         private void write2Db(DataTable plsd, string tableName)
         {
-            string deleteSql = "delete from Polling_Log_Sta_Year where occurtime >='" + startTime.Year + "-01-01';" ;
+            string deleteSql = "delete from "+updateTable+" where occurtime >='" + startTime.Year + "-01-01';" ;
             sqlHelper.ExecteNonQueryText(deleteSql);
             sqlHelper.DataTableToSQLServer(plsd, tableName);
-            LogUtil.log("finish writing data to table Polling_Log_Sta_Year : " + startTime.Year);
+            LogUtil.log("finish writing data to table "+updateTable+" : " + startTime.Year);
         }
 
     }

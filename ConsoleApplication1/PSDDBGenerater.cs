@@ -13,18 +13,17 @@ namespace YDIOTService
     public class PSDDBGenerater
     {
 
-        private DateTime startTime;//start time of this period
-        private DateTime endTime;//end time of this period ,caculated
-        private DateTime proceeTime;//the actual time of the program prcessing , same to datetime.now
-        private string dbName;
-        private SqlHelper sqlHelper;
-        private string colLabel = "H";
-        private int dayLength = 1;
-       
-        private readonly static string TIMEFORMAT = "yyyy-MM-dd HH:mm:ss";
+        protected DateTime startTime;//start time of this period
+        protected DateTime endTime;//end time of this period ,caculated
+        protected DateTime proceeTime;//the actual time of the program prcessing , same to datetime.now
+        protected string dbName;
+        protected SqlHelper sqlHelper;
+        protected string colLabel = "H";
+        protected int dayLength = 1;
 
-       // private static Dictionary<string, string> dicMscAndFcid = new Dictionary<string, string>();
+        protected readonly static string TIMEFORMAT = "yyyy-MM-dd HH:mm:ss";
 
+        protected string updateTable = "Polling_Log_Sta_Day";
 
         public PSDDBGenerater()
         {
@@ -59,7 +58,7 @@ namespace YDIOTService
             DataTable sourceDt = generateSourceTable(startTime);
             DataTable destTable = generatePollingStaDayTable(sourceDt);
 
-            write2Db(destTable, "Polling_Log_Sta_Day");
+            write2Db(destTable, updateTable);
             // LogUtil.logFinishPeroid("finish processing data from  " + startTime.ToString(TIMEFORMAT) + " to " + endTime.ToString(TIMEFORMAT) + "", startTime, endTime);
             if (proceeTime == endTime)//当天执行了，返回今天0点
             {
@@ -77,12 +76,9 @@ namespace YDIOTService
         private void write2Db(DataTable plsd, string tableName)
         {
 
-            string deleteSql = "delete from Polling_Log_Sta_Day where occurtime >='" + startTime.Year + "-" + startTime.Month + "-" + startTime.Day + "'";
+            string deleteSql = "delete from "+updateTable+" where occurtime >='" + startTime.Year + "-" + startTime.Month + "-" + startTime.Day + "'";
             sqlHelper.ExecteNonQueryText(deleteSql);
             sqlHelper.DataTableToSQLServer(plsd, tableName);
-            //  LogUtil.log("finish writing data to table Polling_Log_Sta_Day");
-
-
         }
 
         private void preDealSourceTable()
@@ -98,13 +94,13 @@ namespace YDIOTService
             ELSE pl_time END) 
             WHERE
             check_time is null and
-            Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig()+")))";
+            Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig(updateTable)+")))";
             sqlHelper.ExecteNonQueryText(sql);
         }
 
         private DataTable generateSourceTable(DateTime startTime)
         {
-            string sql = "select pl.*,fc.Facility_id as fcid from polling_log pl LEFT JOIN Facility_Config fc on pl.msc_id = fc.msc_id  where  check_Time>= '" + startTime.ToShortDateString() + "' and check_Time< '" + endTime.ToString() + "' and pl.Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig()+"))) order by check_time asc ";
+            string sql = "select pl.*,fc.Facility_id as fcid from polling_log pl LEFT JOIN Facility_Config fc on pl.msc_id = fc.msc_id  where  check_Time>= '" + startTime.ToShortDateString() + "' and check_Time< '" + endTime.ToString() + "' and pl.Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig(updateTable)+"))) order by check_time asc ";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             HashSet<string> set = new HashSet<string>();
             DataTable sourceTable = dataSet.Tables[0].Copy();
@@ -131,7 +127,7 @@ namespace YDIOTService
         public DataTable generatePollingStaDayTable(DataTable sourceDT)
         {
             //dicMscAndFcid = CommonUtil.generateMscAndFcidMap(sqlHelper);
-            DataTable insertDT = CommonUtil.createEmptyPollingStaDayTable();
+            DataTable insertDT = CommonUtil.createEmptyPollingStaDayTable(updateTable);
             //  LogUtil.log("finished creating a empty pollingstadaydatatable ");
             Dictionary<string, float> maxValueDic = getAllMsgIdAndMaxValueUntillStartTime(startTime);
             List<string> mscList = getStaMscIds();
@@ -195,7 +191,7 @@ namespace YDIOTService
                     string mscid = mscList[i];
                     string select = " mscid = " + mscid;
                     DataRow[] drs = insertDT.Select(select);
-                    float toValue = -1f;
+                    float toValue = 0f;
                     if (maxValueDic.ContainsKey(mscid))
                     {
                         toValue = maxValueDic[mscid];
@@ -275,7 +271,7 @@ namespace YDIOTService
         {
             Dictionary<string, float> lastDayDic = new Dictionary<string, float>();
             //获取前一天t23的值，用今天的t0减去，就会得到今天的n0
-            string sql = "select mscid, " + colLabel + "23  from Polling_Log_Sta_Day where occurtime = '" + startTime.AddDays(-1).ToString() + "'";
+            string sql = "select mscid, " + colLabel + "23  from " + updateTable + " where occurtime = '" + startTime.AddDays(-1).ToString() + "'";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             if (CommonUtil.firstTableHaveRow(dataSet))
             {
@@ -320,7 +316,7 @@ namespace YDIOTService
         private Dictionary<String, float> getAllMsgIdAndMaxValueUntillStartTime(DateTime startTime)
         {
             Dictionary<String, float> result = new Dictionary<string, float>();
-            string sql = "select Msc_ID,Value from (SELECT * , Row_Number() OVER (partition by Msc_ID ORDER BY check_Time desc) rank FROM Polling_Log where  check_Time < cast('" + startTime.ToString() + "' as DateTime)  and Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig()+"))))T  where T.rank = 1";
+            string sql = "select Msc_ID,Value from (SELECT * , Row_Number() OVER (partition by Msc_ID ORDER BY check_Time desc) rank FROM Polling_Log where  check_Time < cast('" + startTime.ToString() + "' as DateTime)  and Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig(updateTable)+"))))T  where T.rank = 1";
             //string sql = "select Msc_ID, max(VALUE) as maxValue from Polling_Log where  check_Time < cast('" + startTime.ToString() + "' as DateTime)  and Msc_ID in(select  Msc_ID from Facility_Config  where Usage_ID in (select Usage_ID from [Usage]  where Usage_Name in ("+CommonUtil. getUsageMatchStrFromConfig()+")))  GROUP BY Msc_ID ";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             if (CommonUtil.firstTableHaveRow(dataSet))
@@ -341,7 +337,7 @@ namespace YDIOTService
         private List<string> getStaMscIds()
         {
             List<string> idList = new List<string>();
-            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig()+"))";
+            string sql = "select   DISTINCT Msc_ID  from Facility_Config where Usage_ID in ( select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig(updateTable)+"))";
             DataSet dataSet = sqlHelper.ExecuteDataSet(sql);
             if (CommonUtil.firstTableHaveRow(dataSet))
             {
@@ -357,7 +353,7 @@ namespace YDIOTService
         private List<string> getStaUsageIds()
         {
             List<string> idList = new List<string>();
-            DataSet dataSet = sqlHelper.ExecuteDataSet("select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig()+");");
+            DataSet dataSet = sqlHelper.ExecuteDataSet("select  Usage_id from  [Usage] where Usage_Name  in ("+CommonUtil. getUsageMatchStrFromConfig(updateTable)+");");
             if (CommonUtil.firstTableHaveRow(dataSet))
             {
                 for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
