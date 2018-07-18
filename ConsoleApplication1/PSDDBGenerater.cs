@@ -264,7 +264,9 @@ namespace YDIOTService
                 {
                     float tj = Convert.ToSingle(singleRow[colLabel + j]);
                     float tjplus = Convert.ToSingle(singleRow[colLabel + (j + 1)]);
-                    singleRow[colLabel + "n" + (j + 1)] = (tjplus - tj) < 0 ? 0 : tjplus - tj;
+                    float netjplus = (tjplus - tj) < 0 ? 0 : tjplus - tj;
+                    netjplus = netjplus >= tjplus ? 0 : netjplus;
+                    singleRow[colLabel + "n" + (j + 1)] = netjplus;
                 }
 
             }
